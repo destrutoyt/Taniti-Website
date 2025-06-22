@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Taniti Website | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <header>
+      <div id="intro">
+        <img src="images/Palm Tree.gif" alt="Intro Logo" class="intro-logo">
+      </div>
+
+      <nav>
+        <a href="index.html">
+            <img src="images/logo.png" alt="Taniti Logo" class="logo">
+        </a>
+        <!-- Responsive Menu (Hamburger)-->
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="nav-menu">
+          <li><a class="active" href="index.html">HOME</a></li>
+          <li><a href="webpages/lodging.html">LODGING</a></li>
+          <li><a href="webpages/entertainment.html">ENTERTAINMENT</a></li>
+          <li><a href="webpages/restaurants.html">RESTAURANTS</a></li>
+          <li><a href="webpages/reservation.html">RESERVATION & FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <section>
+        <div class="video-container">
+          <video src="videos/morning.mp4" autoplay muted loop id="home-top-video">
+            Your browser does not support the video tag.
+          </video>
+          <h1>TANITI ISLAND</h1>
+          <h3>Taniti is a small, tropical island in the Pacific. While the island has an area of less than 500 square miles, the terrain is varied and includes both sandy and rocky beaches, a small but safe harbor, lush tropical rainforests, and a mountainous interior that includes a small, active volcano.</h3>
+        </div>
+      </section>
+      <div class="home-container background">
+        <div class="home-item-1">
+          <h3 class="h3-black-shadow">Tiny Paradise<br> Huge Possibilities</h3>
+          <div class="content-box-container"> <!-- Content Boxes -->
+            <div class="content-box">
+              <img src="images/lodging.jpg" alt="Lodging Picture" class="content-image">
+              <a href="webpages/lodging.html"><h3>LODGING</h3></a>
+            </div>
+            <div class="content-box">
+              <img src="images/entertainment.jpg" alt="Entertainment Picture" class="content-image">
+              <a href="webpages/entertainment.html"><h3>ENTERTAINMENT</h3></a>
+            </div>
+            <div class="content-box">
+              <img src="images/restaurant.jpg" alt="Restaurant Picture" class="content-image">
+              <a href="webpages/restaurants.html"><h3>RESTAURANTS</h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="home-item-2">
+          <h3 class="h3-black-shadow">Looking to Taste Paradise?</h3>
+          <a href="webpages/reservation.html" class="btn-reserve">RESERVE NOW!</a>
+        </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-top">
+          <p class="contact-number">+1 (123) 456-7890</p>
+          <ul class="social-list">
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.pinterest.com/"><i class="fab fa-pinterest"></i></a></li>
+          </ul>
+        </div>
+        <p class="credits">Brought to you by the Taniti Government 🌴❤️</p>
+      </div>
+    </footer>
+
+    <script src="scripts/introAnimation.js"></script>
+    <script src="scripts/changeImageOnTimezone.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Taniti Website | Reservations & FAQ</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="../index.html">
+            <img src="../images/logo.png" alt="Taniti Logo" class="logo">
+        </a>
+        <!-- Responsive Menu (Hamburger)-->
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <ul class="nav-menu">
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="lodging.html">LODGING</a></li>
+          <li><a href="entertainment.html">ENTERTAINMENT</a></li>
+          <li><a href="restaurants.html">RESTAURANTS</a></li>
+          <li><a class="active" href="reservation.html">RESERVATION & FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <div class="reservation-container">
+        <img src="../images/reservation.jpg" alt="restaurant Image">
+        <h1>YOUR ISLAND ESCAPE AWAITS</h1>
+        <form style="z-index: 1;">
+          <div class="left-form">
+            <h2>ABOUT YOU</h2>
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Last Name:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="phone">Age:</label>
+            <input type="number" id="phone" name="phone" required>
+          </div>
+          <div class="right-form">
+            <h2>VISIT DETAILS</h2>
+            <label for="partySize">Party Size:</label>
+            <input type="number" id="partySize" name="partySize" required>
+
+            <label for="transportIsland">Transport to Island:</label>
+            <select name="transportIsland" id="transportIsland">
+            <option value="cruise">Cruise</option>
+            <option value="plane">Airplane</option>
+            </select>
+
+            <label for="islandTransport">Island Transportation:</label>
+            <select name="islandTransport" id="islandTransport">
+            <option value="carRental">Car Rental</option>
+            <option value="touristRide">Tourist Transportation</option>
+            <option value="hotelRide">Hotel Shutte</option>
+            </select>
+          </div>
+          <div class="bottom-form">
+            <label for="accommodations">Accomodations</label>
+            <textarea id="accommodations" name="accommodations" placeholder="Please specify any special requests or requirements for your stay."></textarea>
+
+            <label for="firstQuestion">Interested in Local Attractions?</label>
+            <input type="checkbox" id="firstQuestion" name="firstQuestion">
+
+            <label for="secondQuestion">By checking this box, you are agreeing to our rules and read our <a href="#faq">FAQs</a></label>
+            <input type="checkbox" id="secondQuestion" name="secondQuestion">
+
+            <button type="submit" class="btn-form">RESERVE NOW!</button>
+        </form>
+      </div>
+      <div class="faq-container">
+        <h2 id="faq">FREQUENTLY ASKED QUESTIONS</h2>
+        <details>
+          <summary>What type of power outlets are available?</summary>
+          <p>Power outlets are 120 volts (the same as in the United States). </p>
+        </details>
+        <details>
+          <summary>What is your policy in alcoholic drinks?</summary>
+          <p>Alcohol is not allowed to be served or sold between the hours of midnight and 9:00 a.m. </p>
+        </details>
+        <details>
+          <summary>What is the minimun age required to buy alcoholic drinks?</summary>
+          <p>The drinking age on Taniti is 18 and the drinking age is not strictly enforced.</p>
+        </details>
+        <details>
+          <summary>What is the main language of Taniti?</summary>
+          <p>Many younger Tanitians speak fluent English. Very little English is spoken in rural areas, especially by the older residents.</p>
+        </details>
+        <details>
+          <summary>Are there any hospitals/clinics? What languages do they communicate with?</summary>
+          <p>There is one hospital and several clinics. The hospital has many multilingual employees.</p>
+        </details>
+        <details>
+          <summary>What is the crime rate in Taniti?</summary>
+          <p>Violent crime is very rare on Taniti, but as tourism increases, there are more reports of pickpocketing and other petty crimes. </p>
+        </details>
+        <details>
+          <summary>Does Taniti have national holidays? Are business open during that time?</summary>
+          <p>Taniti enjoys a large number of national holidays, and many tourist attractions and restaurants will be closed on holidays, so visitors should plan accordingly.</p>
+        </details>
+        <details>
+          <summary>What is the currency accepted in Taniti?</summary>
+          <p>Taniti uses the U.S. dollar as its currency, but many businesses will also accept euros and yen. Several banks facilitate currency exchange, and many businesses accept major credit cards.</p>
+        </details>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-top">
+          <p class="contact-number">+1 (123) 456-7890</p>
+          <ul class="social-list">
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.pinterest.com/"><i class="fab fa-pinterest"></i></a></li>
+          </ul>
+        </div>
+        <p class="credits">Brought to you by the Taniti Government 🌴❤️</p>
+      </div>
+    </footer>
+  </body>
+</html>

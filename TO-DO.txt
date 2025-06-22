@@ -1,0 +1,17 @@
+REQUIREMENTS:
+- Create all webpages and follow low-fidelity wireframes
+- Ensure constant navigation
+- Develop responsive design across all devices
+
+
+KNOWN ISSUES:
+- Background colors required more attention (FIXED, BUT LOOKING FOR BETTER OPTIONS)
+
+
+
+
+
+
+
+IMPORTANT NOTES / CHANGELOG:
+- Fixed minor issue with navigation around webpages
